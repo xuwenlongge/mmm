@@ -1,18 +1,22 @@
 {
-  "name": "moviecat",
+  "name": "proj",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "angular": "^1.5.5",
-    "angular-route": "^1.5.5",
-    "gulp": "^3.9.1"
+  "main": "gulpfile.js",
+  "directories": {
+    "doc":"docs",
+    "test": "test"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "boostrap3":"^v3.3.7"
+
+    
+  }
 }
