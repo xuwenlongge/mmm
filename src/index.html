@@ -1,14 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>慢慢买</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0"/>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./css/base.css"/>
+    <link rel="stylesheet" href="./less/less.css"/>
+
 </head>
 <body>
-	<ul>
-		<li><a href="./index.html">首页</a></li>
-		<li><a href="./list/">商品列表</a></li>
-		<li><a href="./login/">登录</a></li>
-	</ul>
+<div class="header1 clearfix">
+    <div class="header1_fl">
+        <a href="#">
+            <img src="./resource/images/header_logo.png" alt=""/>
+        </a>
+    </div>
+    <div class="header1_fr">
+        <a href="#">
+            <img src="./resource/images/header_app.png" alt=""/>
+        </a>
+    </div>
+</div>
+<!--搜索-->
+<div class="header2 clearfix">
+    <div class="header2_content1">
+        <input value="" name="key" type="search" placeholder="请输入你想比价的商品">
+    </div>
+    <div class="header2_content2">
+        <input type="submit" value="搜索"/>
+    </div>
+</div>
+<!--图片-->
+<div class="big-classify">
+    <div class="row clearfix">
+        <div class="area-item">
+            <a href="listclass.aspx">
+                <div class="pic">
+                    <img src="./resource/images/ic_search.png" alt="比价搜索"></div>
+                <div class="name">
+                    比价搜索
+                </div>
+            </a>
+        </div>
+        <div class="area-item">
+            <a href="cuxiao.aspx">
+                <div class="pic">
+                    <img src="./resource/images/ic_cu.png" alt="省钱控"></div>
+                <div class="name">
+                    省钱控
+                </div>
+            </a>
+        </div>
+        <div class="area-item">
+            <a href="guoneizhekou.aspx">
+                <div class="pic">
+                    <img src="./resource/images/ic_coudanpin.png" alt="国内折扣"></div>
+                <div class="name">
+                    国内折扣
+                </div>
+            </a>
+        </div>
+        <div class="area-item">
+            <a href="http://baicai.manmanbuy.com/m/baicai.aspx">
+                <div class="pic">
+                    <img src="./resource/images/ic_bcj.png" alt="白菜价"></div>
+                <div class="name">
+                    白菜价
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="area-item">
+            <a href="haitao.aspx">
+                <div class="pic">
+                    <img src="./resource/images/haitao.png" alt="海淘折扣"></div>
+                <div class="name">
+                    海淘折扣
+                </div>
+            </a>
+        </div>
+
+
+        <div class="area-item">
+            <a href="quanindex.aspx">
+                <div class="pic">
+                    <img src="./resource/images/ic_temai.png" alt="优惠券"></div>
+                <div class="name">
+                    优惠券
+                </div>
+            </a>
+        </div>
+        <div class="area-item">
+            <a href="http://tool.manmanbuy.com/m/history.aspx">
+                <div class="pic">
+                    <img src="./resource/images/ic_trend.png" alt="查历史价"></div>
+                <div class="name">
+                    查历史价
+                </div>
+            </a>
+        </div>
+
+        <div class="area-item">
+            <a href="###"
+               onclick="document.getElementById('menuall').style.display==''?document.getElementById('menuall').style.display='none':document.getElementById('menuall').style.display=''">
+                <div class="pic">
+                    <img src="./resource/images/gengduo.png" alt="更多"></div>
+                <div class="name">
+                    更多
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row clearfix" style=" display:none;" id="menuall">
+        <div class="area-item">
+            <a href="coudan/CoudanList.aspx?money=1&amp;area=1&amp;site=1&amp;sort=1">
+                <div class="pic">
+                    <img src="./resource/images/ic_coudanpin.png" alt="凑单品"></div>
+                <div class="name">
+                    凑单品
+                </div>
+            </a>
+        </div>
+        <div class="area-item">
+            <a href="listComment.aspx">
+                <div class="pic">
+                    <img src="./resource/images/ic_kb.png" alt="口碑排行"></div>
+                <div class="name">
+                    口碑排行
+                </div>
+            </a>
+        </div>
+        <div class="area-item">
+            <a href="HzSite.aspx">
+                <div class="pic">
+                    <img src="./resource/images/ic_mall.png" alt="商城导航"></div>
+                <div class="name">
+                    商城导航
+                </div>
+            </a>
+        </div>
+        <div class="area-item">
+            <a href="top10.aspx">
+                <div class="pic">
+                    <img src="./resource/images/ic_pp.png" alt="品牌大全"></div>
+                <div class="name">
+                    品牌大全
+                </div>
+            </a>
+        </div>
+
+    </div>
+</div>
+<!--超值导航-->
+<div class="over-nav clearfix ">
+    <div class="over-nav_fl"><a href="#"><span>超值折扣推荐</span></a></div>
+    <div class="over-nav_fr"><a href="#"><img src="./resource/images/more.png" alt=""/></a></div>
+</div>
+
+<!--商品类-->
+<!--<div class="commodity1">-->
+    <!--<div><a href="#"><img src="./resource/imgages/http__a.manmanbuy.com8013_cuxiaoPic_20173_2017030013243185888.png" alt=""/></a></div>-->
+    <!--<div>-->
+        <!--<div><span><a href="#">2017智慧网购专题：直击315<p>315重磅曝光</p></a></span></div>-->
+        <!--<div>-->
+            <!--<div><span><a href="#"></a></span></div>-->
+            <!--<div><span><img src="" alt=""/></span></div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<ul>
+    <li class="clearfix ui-border-b">
+        <a href="d.aspx?id=133198&amp;f=weixinlist">
+            <div class="pic">
+                <img src="http://cacheimg.manmanbuy.com/r_img/cacheimg.aspx?width=600&amp;imgurl=http://a.manmanbuy.com:8013/cuxiaoPic/20173/2017030021422946963.jpg">
+            </div>
+            <div class="clearfix info">
+                <div class="title">小米 5s Plus 标准版
+                    <span>2199元包邮</span>
+                </div>
+                <div class="other">
+                    <span class="mall">1号店 | 03-15 21:41</span>
+                <span class="comment"><i class="icon-comment"></i>1
+                </span>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
 </body>
 </html>

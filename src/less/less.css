@@ -1,0 +1,177 @@
+.header1 {
+  height: 50px;
+  width: 100%;
+  background-color: #ff841d;
+}
+.header1 .header1_fl {
+  float: left;
+  width: 75%;
+  padding-left: 15px;
+  padding-top: 10px;
+  height: 100%;
+}
+.header1 .header1_fl a {
+  display: inline-block;
+  height: 80%;
+}
+.header1 .header1_fl a img {
+  height: 80%;
+}
+.header1 .header1_fr {
+  float: right;
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 100%;
+}
+.header1 .header1_fr a {
+  display: inline-block;
+  height: 80%;
+}
+.header1 .header1_fr a img {
+  height: 80%;
+}
+.header2 {
+  height: 36px;
+  margin: 10px;
+  width: 100%;
+}
+.header2 .header2_content1 {
+  height: 100%;
+  float: left;
+  width: 70%;
+}
+.header2 .header2_content1 input {
+  font-size: 16px;
+  background-color: #F1F1F1;
+  padding: 10px;
+  border-radius: 18px;
+  width: 100%;
+}
+.header2 .header2_content2 {
+  height: 100%;
+  float: right;
+  margin-right: 10px;
+}
+.header2 .header2_content2 input {
+  font-size: 16px;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  background-color: #ff841d;
+  border-radius: 18px;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.big-class7ify {
+  width: 100%;
+}
+.big-class7ify .row {
+  width: 100%;
+}
+.big-class7ify .row .area-item {
+  width: 25%;
+  height: 50px;
+  position: relative;
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.big-class7ify .row .area-item a {
+  display: inline-block;
+  margin-left: 50%;
+  padding-left: -50px;
+}
+.big-class7ify .row .area-item a .pic {
+  height: 100%;
+  width: 100%;
+}
+.big-class7ify .row .area-item a .pic img {
+  width: 50px;
+  height: 50px;
+}
+.big-class7ify .row .area-item a .name {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+.over-nav {
+  width: 100%;
+  background-color: #ff841d;
+}
+.over-nav .over-nav_fl {
+  float: left;
+  margin-left: 10px;
+}
+.over-nav .over-nav_fl a {
+  display: inline-block;
+  text-decoration: none;
+}
+.over-nav .over-nav_fl a span {
+  font-size: 16px;
+  line-height: 30px;
+  height: 30px;
+  color: white;
+}
+.over-nav .over-nav_fl a:visited {
+  text-decoration: none;
+}
+.over-nav .over-nav_fr {
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.over-nav .over-nav_fr a {
+  display: inline-block;
+}
+.over-nav .over-nav_fr a img {
+  height: 16px;
+  width: 16px;
+}
+ul .ui-border-b {
+  padding: 14px 8px;
+  position: relative;
+  border-bottom: 1px solid #e0e0e0;
+}
+ul .ui-border-b a {
+  text-decoration: none;
+}
+ul .ui-border-b a .pic {
+  width: 110px;
+  float: left;
+}
+ul .ui-border-b a .pic img {
+  width: 100px;
+  height: 100px;
+}
+ul .ui-border-b a .info {
+  padding-left: 90px;
+  font-size: 14px;
+  line-height: 24px;
+}
+ul .ui-border-b a .info .title {
+  font-size: 15px;
+  line-height: 19px;
+  min-height: 57px;
+  text-align: left;
+  font-weight: normal;
+}
+ul .ui-border-b a .info .title span {
+  color: red;
+}
+ul .ui-border-b a .info .other {
+  padding-left: 90px;
+  padding-bottom: 20px;
+  float: left;
+}
+ul .ui-border-b a .info .other .mall {
+  font-size: 12px;
+  color: #4D4D4D;
+}
+ul .ui-border-b a .info .other .commit {
+  float: right;
+  font-size: 12px;
+}
+ul .ui-border-b a:visited {
+  text-decoration: none;
+}

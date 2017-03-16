@@ -1,0 +1,151 @@
+.header1 {
+  height: 50px;
+  width: 100%;
+  background-color: #ff841d;
+}
+.header1 .header1_fl {
+  float: left;
+  width: 75%;
+  padding-left: 15px;
+  padding-top: 10px;
+  height: 100%;
+}
+.header1 .header1_fl a {
+  display: inline-block;
+  height: 80%;
+}
+.header1 .header1_fl a img {
+  height: 80%;
+}
+.header1 .header1_fr {
+  float: right;
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 100%;
+}
+.header1 .header1_fr a {
+  display: inline-block;
+  height: 80%;
+}
+.header1 .header1_fr a img {
+  height: 80%;
+}
+.header2 {
+  height: 36px;
+  margin: 10px;
+  width: 100%;
+}
+.header2 .header2_content1 {
+  height: 100%;
+  float: left;
+  width: 70%;
+}
+.header2 .header2_content1 input {
+  font-size: 16px;
+  background-color: #F1F1F1;
+  padding: 10px;
+  border-radius: 18px;
+  width: 100%;
+}
+.header2 .header2_content2 {
+  height: 100%;
+  float: right;
+  margin-right: 10px;
+}
+.header2 .header2_content2 input {
+  font-size: 16px;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  background-color: #ff841d;
+  border-radius: 18px;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.nav-pills > li {
+  float: left;
+}
+.nav-pills > li > a {
+  border-radius: 4px;
+}
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: black;
+  background-color: #DBDBDB;
+  font-family: "Microsoft yahei";
+}
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #FFFFFF;
+}
+.nav-stacked > li {
+  float: none;
+  font-size: 16px;
+  line-height: 26px;
+  height: 35px;
+}
+.nav-stacked > li + li {
+  margin-top: 0px;
+  margin-left: 0;
+  border-top: 2px solid #CCCCCC;
+}
+.nav li {
+  padding-bottom: 2px;
+}
+.nav li a {
+  float: left;
+  padding: 0px 0px 0px 10px;
+  width: 100%;
+  disply: inline-block;
+  height: 35px;
+  line-height: 35px;
+  font-family: "Microsoft yahei";
+  font-weight: bold;
+}
+.nav li a .xuwenlong {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #4D4D4D;
+}
+.nav li .nav1 .nav1_ul .nav1_ul_li {
+  width: 33.33%;
+  height: 20px;
+}
+.btn-group {
+  margin-top: 40px;
+}
+.btn-group-justified > .btn-group {
+  display: table-cell;
+  float: none;
+  width: 1%;
+}
+.btn-group-justified > .btn-group .btn {
+  width: 100%;
+}
+.btn-group-justified > .btn-group .dropdown-menu {
+  left: auto;
+}
+.mmb_bottom a {
+  display: inline-block;
+  text-decoration: none;
+  width: 60%;
+  margin-right: 20%;
+  margin-left: 20%;
+  font-size: 12px;
+  heigth: 32px;
+  line-height: 32px;
+}
+.mmb_bottom a span {
+  font-size: 12px;
+  color: red;
+}
+.mmb_bottom .mmb_bottom_below {
+  width: 30%;
+  margin: 0 auto;
+}
